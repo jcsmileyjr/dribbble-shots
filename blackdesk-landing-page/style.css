@@ -1,0 +1,35 @@
+.menu-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.menu-selection, .menu-selection-middle {
+  text-align: center;
+  flex: 1;
+}
+
+.menu-selection-middle {
+    flex: 1.5;
+}
+
+ul.menu-section {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.menu-button-style {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+}
+
+.logo {
+    font-weight: bolder;
+    font-size: xx-large;
+}
