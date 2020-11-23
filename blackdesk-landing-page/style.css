@@ -48,7 +48,15 @@ main {
 }
 
 .pictures {
-    background-color: grey;
+    display: flex;
+    padding-top: 100px;
+    padding-right: 250px;
+}
+
+.picture-area {
+    flex:1;
+    display: flex;
+    flex-direction: column;
 }
 
 .red-color {
@@ -81,3 +89,14 @@ h1 {
     height: 100%;
     width: 10px;
 }
+
+.image-style {
+    max-width: 93%;
+    max-height: 300px;
+    margin-bottom: 20px;
+}
+
+.right-pictures {
+    padding-top: 150px
+}
+
