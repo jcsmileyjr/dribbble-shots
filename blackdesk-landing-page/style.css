@@ -22,10 +22,10 @@ ul.menu-section {
 }
 
 .menu-button-style {
-    background-color: white;
+    background-color: transparent;
     border: 1.5px solid lightgray;
     border-radius: 2px;
-    padding: 5px 10px 5px 10px;
+    padding: 10px 15px 10px 15px;
     font-weight: bold;
 }
 
